@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+function namaAIModel.onInit()
+
+
+
+
+
+
+
+application.setCurrentUserScene("namascene")
+
+
+end

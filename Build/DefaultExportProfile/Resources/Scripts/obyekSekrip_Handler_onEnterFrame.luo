@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+function obyekSekrip.onEnterFrame()
+
+
+
+
+
+
+
+
+
+local nTouchCnt=kinclong2io.GetTouchInput()
+
+if nTouchCnt>=1 then
+local nID=kinclong2io.GetTouchID(0)
+local nx=kinclong2io.GetTouchx(nID)
+local ny=kinclong2io.GetTouchy(nID)
+local nYY
+local delta
+
+delta=ny-this.oldY()
+object.translate(this.getObject(),0,delta,0,object.kGlobalSpace)
+this.oldY(ny)
+
+end
+
+
+end

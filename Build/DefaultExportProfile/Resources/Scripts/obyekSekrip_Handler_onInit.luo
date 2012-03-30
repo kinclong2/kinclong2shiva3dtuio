@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+function obyekSekrip.onInit()
+
+
+
+
+
+
+
+
+
+
+this.oldY(0)
+kinclong2io.InitTUIO(3333)
+
+
+end

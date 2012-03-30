@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<plugin name="kinclong2io" version="" s3dx_sdk_version="0x1090100">
+
+		<info>
+			<description>TUIO parser</description>
+			<author>
+				<name>Danang Suharno</name>
+				<mail>kinclong2@gmail.com</mail>
+				<site>http://kinclong2.wordpress.com</site>
+			</author>
+		</info>
+
+		<certificate></certificate>
+
+		<files>
+			<platform type="Windows">
+				<arch type="x86_32">kinclong2io_Windows.dll</arch>
+			</platform>
+
+			<platform type="Mac">
+				<arch type="ppc_32">kinclong2io_Mac.dylib</arch>
+				<arch type="ppc_64">kinclong2io_Mac.dylib</arch>
+				<arch type="x86_32">kinclong2io_Mac.dylib</arch>
+				<arch type="x86_64">kinclong2io_Mac.dylib</arch>
+			</platform>
+
+			<platform type="Linux">
+				<arch type="x86_32">kinclong2io_Linux.so</arch>
+			</platform>
+			<platform type="iOS">
+				<arch type="arm_v6">kinclong2io_iOS.a</arch>
+				<arch type="arm_v7">kinclong2io_iOS.a</arch>
+			</platform>
+			<platform type="Android">
+				<arch type="arm_v5te">kinclong2io_Android.a</arch>
+			</platform>
+			<platform type="Palm">
+				<arch type="arm_v6">kinclong2io_Palm.a</arch>
+			</platform>
+			<platform type="BlackBerry">
+				<arch type="arm_v7">kinclong2io_BlackBerry.a</arch>
+			</platform>
+			<platform type="Wii">
+				<arch type="ppc_32">kinclong2io_Wii.a</arch>
+			</platform>
+			<platform type="PSP">
+				<arch type="mips_32">kinclong2io_PSP.a</arch>
+			</platform>
+			<platform type="PS3">
+				<arch type="ppc_32">kinclong2io_PS3.a</arch>
+			</platform>
+			<platform type="NaCl">
+				<arch type="x86_32">kinclong2io_NaCl_x86_32.a</arch>
+				<arch type="x86_64">kinclong2io_NaCl_x86_64.a</arch>
+			</platform>
+		</files>
+	</plugin>
+</manifest>

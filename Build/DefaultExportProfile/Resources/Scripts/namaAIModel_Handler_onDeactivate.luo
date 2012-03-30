@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+function namaAIModel.onDeactivate()
+
+
+
+
+
+
+
+kinclong2io.DeInitTUIO()
+
+
+end

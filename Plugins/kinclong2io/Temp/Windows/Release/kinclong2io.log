@@ -1,0 +1,33 @@
+﻿Build started 3/30/2012 2:22:25 AM.
+     1>Project "E:\Proyek2012\dolanan\Shiva\peroyekshiva\Plugins\kinclong2io\Make\Windows\kinclong2io.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "..\..\Temp\Windows\Release\kinclong2io.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "..\..\Temp\Windows\Release\kinclong2io.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../Sources/ /I../../Sources/S3DX/ /I../../Sources/Windows/ /Zi /nologo /W3 /WX- /Ox /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D S3DX_DLL /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"PrecompiledHeader.h" /Fp"..\..\Temp\Windows\Release\kinclong2io_Windows.pch" /Fo"..\..\Temp\Windows\Release\\" /Fd"..\..\Temp\Windows\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Sources\Windows\PrecompiledHeader.cpp
+         PrecompiledHeader.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../Sources/ /I../../Sources/S3DX/ /I../../Sources/Windows/ /Zi /nologo /W3 /WX- /Ox /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D S3DX_DLL /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"PrecompiledHeader.h" /Fp"..\..\Temp\Windows\Release\kinclong2io_Windows.pch" /Fo"..\..\Temp\Windows\Release\\" /Fd"..\..\Temp\Windows\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Sources\kinclong2io.cpp ..\..\Sources\Plugin.cpp ..\..\Sources\Windows\DLLMain.cpp
+         kinclong2io.cpp
+     1>..\..\Sources\kinclong2io.cpp(140): warning C4244: 'argument' : conversion from 'int' to 'const S3DX::float32', possible loss of data
+     1>..\..\Sources\kinclong2io.cpp(176): warning C4244: 'argument' : conversion from 'int' to 'const S3DX::float32', possible loss of data
+         Plugin.cpp
+         DLLMain.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Contents\Windows\kinclong2io_Windows.dll" /INCREMENTAL:NO /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\..\Temp\Windows\Release\kinclong2io_Windows.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\Temp\Windows\Release\kinclong2io_Windows.lib" /MACHINE:X86 /DLL ..\..\Temp\Windows\Release\kinclong2io.obj
+         ..\..\Temp\Windows\Release\Plugin.obj
+         ..\..\Temp\Windows\Release\DLLMain.obj
+         ..\..\Temp\Windows\Release\PrecompiledHeader.obj
+            Creating library ..\..\Temp\Windows\Release\kinclong2io_Windows.lib and object ..\..\Temp\Windows\Release\kinclong2io_Windows.exp
+         kinclong2io.vcxproj -> E:\Proyek2012\dolanan\Shiva\peroyekshiva\Plugins\kinclong2io\Make\Windows\..\..\Contents\Windows\kinclong2io_Windows.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\Contents\Windows\kinclong2io_Windows.dll;#2" /manifest ..\..\Temp\Windows\Release\kinclong2io_Windows.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "..\..\Temp\Windows\Release\kinclong2io.unsuccessfulbuild".
+         Touching "..\..\Temp\Windows\Release\kinclong2io.lastbuildstate".
+     1>Done Building Project "E:\Proyek2012\dolanan\Shiva\peroyekshiva\Plugins\kinclong2io\Make\Windows\kinclong2io.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.45
